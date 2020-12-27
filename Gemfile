@@ -7,7 +7,9 @@ ruby '2.7.1'
 gem 'rails', '~> 6.1.0'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.4'
+# gem 'sqlite3', '~> 1.4'
+# https://devcenter.heroku.com/articles/getting-started-with-rails6#add-the-pg-gem
+gem 'pg'
 
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
